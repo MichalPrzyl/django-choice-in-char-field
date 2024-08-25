@@ -7,5 +7,5 @@ my_model_choices = [
     ('cosmic', 'Cosmic'),
 ]
 class MyModel(models.Model):
-    name = models.CharField(max_length=255)
+    name = models.CharField(max_length=255, null=True, blank=False)
     type = models.CharField(null=True, choices=my_model_choices, max_length=255)
