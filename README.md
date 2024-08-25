@@ -81,6 +81,7 @@ name = models.CharField(null=False, blank=True)
 
 You can create model via `MyModel.objects.create()` without specifying the field.
 It create instance with `'name': ''` (with empty string).
+
 You can create it via DRF without specyfying the field.
 It create instance with `'name': ''` (with empty string).
 
